@@ -3,7 +3,7 @@ import joblib # to load our model
 import pandas as pd
 
 # Load your compressed model
-MODEL_PATH = "models\Random Forest_best_model.pkl"
+MODEL_PATH = "D:\Thunderstorm_Forecasting_with_MLFlow_Tracking\models\Random Forest_best_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 st.title("🌦 Thunderstorm Prediction App")
