@@ -11,11 +11,11 @@ st.title("🌦 Thunderstorm Prediction App")
 SWEAT_index = st.number_input("SWEAT index")
 K_index = st.number_input("K index")
 Totals_totals_index = st.number_input("Totals totals index")
-Environmental_Stability = st.number_input("Environmental Stability")
-Moisture_Indices = st.number_input("Moisture indices")
-Convective_Potential = st.number_input("Convective Potential")
-Temperature_Pressure = st.number_input("Temperature Pressure")
-Moisture_Temperature_Profiles = st.number_input("Moisture Temperature Profiles")
+Environmental_Stability = st.number_input("Environmental_Stability")
+Moisture_Indices = st.number_input("Moisture_Indices")
+Convective_Potential = st.number_input("Convective_Potential")
+Temperature_Pressure = st.number_input("Temperature_Pressure")
+Moisture_Temperature_Profiles = st.number_input("Moisture_Temperature_Profiles")
 
 if st.button("Predict"):
     input_df = pd.DataFrame([{
