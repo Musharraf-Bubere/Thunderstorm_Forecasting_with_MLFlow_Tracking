@@ -8,14 +8,14 @@ model = joblib.load(MODEL_PATH)
 
 st.title("🌦 Thunderstorm Prediction App")
 
-SWEAT_index = st.number_input("SWEAT index")
-K_index = st.number_input("K index")
-Totals_totals_index = st.number_input("Totals totals index")
-Environmental_Stability = st.number_input("Environmental_Stability")
-Moisture_Indices = st.number_input("Moisture_Indices")
-Convective_Potential = st.number_input("Convective_Potential")
-Temperature_Pressure = st.number_input("Temperature_Pressure")
-Moisture_Temperature_Profiles = st.number_input("Moisture_Temperature_Profiles")
+SWEAT_index = st.number_input("SWEAT Index")
+K_index = st.number_input("K Index")
+Totals_totals_index = st.number_input("Totals Totals Index")
+Environmental_Stability = st.number_input("Environmental Stability")
+Moisture_Indices = st.number_input("Moisture Indices")
+Convective_Potential = st.number_input("Convective Potential")
+Temperature_Pressure = st.number_input("Temperature Pressure")
+Moisture_Temperature_Profiles = st.number_input("Moisture Temperature Profiles")
 
 if st.button("Predict"):
     input_df = pd.DataFrame([{
@@ -23,7 +23,7 @@ if st.button("Predict"):
         "K index": K_index,
         "Totals totals index": Totals_totals_index,
         "Environmental_Stability": Environmental_Stability,
-        "Moisture_Indices": Moisture_Indices,
+        "Moisture_indices": Moisture_Indices,
         "Convective_Potential": Convective_Potential,
         "Temperature_Pressure": Temperature_Pressure,
         "Moisture_Temperature_Profiles": Moisture_Temperature_Profiles
