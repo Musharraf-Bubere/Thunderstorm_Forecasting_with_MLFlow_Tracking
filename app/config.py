@@ -1,1 +1,1 @@
-MODEL_PATH = "Random Forest_best_model.pkl"
+MODEL_PATH = "models/Random Forest_best_model.pkl"
