@@ -11,7 +11,7 @@ st.write("Enter atmospheric parameters to predict TH (Thunderstorm Occurrence)")
 # Input fields
 SWEAT_index = st.number_input("SWEAT index")
 K_index = st.number_input("K index")
-Totals_totals_index = st.number_input("Totals totals Index")
+Totals_totals_index = st.number_input("Totals totals index")
 Environmental_Stability = st.number_input("Environmental_Stability")
 Moisture_Indices = st.number_input("Moisture_Indices")
 Convective_Potential = st.number_input("Convective_Potential")
